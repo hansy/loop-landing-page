@@ -38,7 +38,7 @@ const Cta = () => {
               something you and your fans will love.
             </p>
           </div>
-          <CtaForm buttonLabel="Join" placeholder="Email" />
+          <CtaForm buttonLabel="Join beta" placeholder="Email" />
         </div>
       </Container>
     </div>

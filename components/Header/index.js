@@ -17,7 +17,7 @@ const Header = () => {
           Loop lets you embed and monetize your videos directly on your website.
         </p>
         <div className="mt-6 mx-auto sm:flex sm:justify-center md:mt-12">
-          <CtaForm buttonLabel="Join" placeholder="Email" />
+          <CtaForm buttonLabel="Join beta" placeholder="Email" />
         </div>
       </Container>
     </div>
