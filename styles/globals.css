@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Cambay:wght@700&display=swap");
+
 .rainbow {
   background: linear-gradient(
     to right,
@@ -12,4 +14,8 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.logo {
+  font-family: "Cambay", sans-serif;
 }

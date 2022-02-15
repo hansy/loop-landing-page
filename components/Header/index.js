@@ -3,7 +3,7 @@ import CtaForm from "../Cta/Form";
 
 const Header = () => {
   return (
-    <div className="text-center mt-8 mb-20 lg:mt-32 lg:mb-40">
+    <div className="text-center mt-8 mb-20 lg:mt-24 lg:mb-40">
       <Container>
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-50 sm:text-5xl md:text-6xl">
           <span className="block">
