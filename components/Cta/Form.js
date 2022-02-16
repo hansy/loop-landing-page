@@ -14,6 +14,13 @@ const CtaForm = ({ buttonLabel, placeholder }) => {
 
   const submit = async (e) => {
     e.preventDefault();
+
+    if (email === "") {
+      setMessage("Email cannot be empty.");
+      return false;
+    }
+
+    setMessage("");
     setIsSubmitting(true);
 
     try {
