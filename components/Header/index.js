@@ -13,7 +13,7 @@ const Header = () => {
             Your <span className="rainbow2 ">money</span>.
           </span>
         </h1>
-        <p className="mt-5 max-w-md mx-auto text-xl text-gray-50 md:mt-8 md:text-2xl">
+        <p className="mt-5 max-w-md mx-auto text-xl text-gray-200 md:mt-8 md:text-2xl">
           Loop lets you embed and monetize your videos directly on your website.
         </p>
         <div className="mt-6 mx-auto sm:flex sm:justify-center md:mt-12">
