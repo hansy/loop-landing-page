@@ -24,7 +24,7 @@ const CtaForm = ({ buttonLabel, placeholder }) => {
       return false;
     }
 
-    setMessage("");
+    setMessage("Adding email...");
     setIsSubmitting(true);
 
     try {
@@ -45,6 +45,7 @@ const CtaForm = ({ buttonLabel, placeholder }) => {
         onSubmit={submit}
         action="/api/users"
         className="sm:mx-auto sm:max-w-lg sm:flex"
+        autoComplete="false"
       >
         <div className="min-w-0 flex-1">
           <label htmlFor="cta-email" className="sr-only">
@@ -71,7 +72,7 @@ const CtaForm = ({ buttonLabel, placeholder }) => {
           </button>
         </div>
       </form>
-      <p className="text-gray-50 my-3 text-center">{message}</p>
+      <p className="text-gray-50 my-3 text-center h-6">{message}</p>
     </div>
   );
 };
