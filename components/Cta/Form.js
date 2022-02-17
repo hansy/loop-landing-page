@@ -20,6 +20,10 @@ const CtaForm = ({ buttonLabel, placeholder }) => {
       return false;
     }
 
+    if (isSubmitting) {
+      return false;
+    }
+
     setMessage("");
     setIsSubmitting(true);
 
