@@ -28,7 +28,7 @@ const Features = () => {
       <Container>
         <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-center text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
-            Upload once, distribute everywhere. It's your content.
+            Upload once, distribute everywhere. It&apos;s your content.
           </h2>
           <dl className="mt-8 space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
             {features.map((feature) => (
