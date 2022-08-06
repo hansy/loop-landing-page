@@ -17,17 +17,17 @@ const Header = () => {
           className="w-full aspect-video rounded-lg mt-20 mb-3"
         />
         <p className="text-purple-400 text-sm">
-          Can&apos;t watch video above? Grab some{" "}
+          Can&apos;t watch the video above? Grab some{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="underline text-indigo-200"
             href="https://faucet.polygon.technology/"
           >
-            loose change
+            faucet change
           </a>{" "}
         </p>
-        <p className="text-red-400 text-sm">
+        <p className="text-red-400 text-sm mt-1">
           ... or mint the{" "}
           <Link href="/mint">
             <a
@@ -40,9 +40,9 @@ const Header = () => {
           </Link>
           .{" "}
         </p>
-        <p className="mt-16 max-w-md mx-auto text-xl text-gray-200 md:mt-20 md:text-2xl">
-          Loop lets you and anyone else embed your videos. Grow and make money
-          together.
+        <p className="mt-16 max-w-xl mx-auto text-xl text-gray-200 md:mt-20 md:text-2xl">
+          Loop gives creators the tools to manage, monetize, and distribute
+          their content however they want.
         </p>
         <div className="mt-5 mx-auto sm:flex sm:justify-center md:mt-5">
           <CtaForm buttonLabel="Join beta" placeholder="Email" />
