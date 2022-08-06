@@ -1,7 +1,5 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import Link from "next/link";
+import { Disclosure } from "@headlessui/react";
 
 const navigation = [];
 
@@ -29,9 +27,9 @@ const Navbar = () => {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <span className="text-white font-bold text-3xl logo">
-                    LOOP
-                  </span>
+                  <Link href="/">
+                    <a className="text-white font-bold text-3xl logo">LOOP</a>
+                  </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">

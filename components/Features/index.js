@@ -17,7 +17,7 @@ const features = [
   {
     name: "Grow it",
     description:
-      "Selling to your existing audience is cool, but you want to grow. We can help bring new fans to you.",
+      "Let anyone embed your videos to drive new fans to your content. Grow together. Make money together.",
     icon: UserGroupIcon,
   },
 ];
