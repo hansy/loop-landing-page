@@ -11,13 +11,13 @@ const features = [
   {
     name: "Monetize it",
     description:
-      "Video on demand, NFT access, subscription - it's your choice how you want to get paid.",
+      "Video on demand, NFT access, subscription - it's your choice how you want your content accessed.",
     icon: CashIcon,
   },
   {
     name: "Grow it",
     description:
-      "Let anyone embed your videos to drive new fans to your content. Grow together. Make money together.",
+      "Let others distribute your awesome content and bring new fans in new places to your work.",
     icon: UserGroupIcon,
   },
 ];
@@ -27,8 +27,8 @@ const Features = () => {
     <div className="py-12 bg-gray-50 md:py-20">
       <Container>
         <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-4xl">
-            It&rsquo;s your content.
+          <h2 className="text-center text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
+            Upload once, distribute everywhere. It's your content.
           </h2>
           <dl className="mt-8 space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
             {features.map((feature) => (

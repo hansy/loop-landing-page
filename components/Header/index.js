@@ -14,35 +14,37 @@ const Header = () => {
         </h1>
         <iframe
           src="https://app.getloop.xyz/0x2Caefce8cF1D7C3AB072BA13934FA6D08d54ba6F/videos/QmTgihxkQRghKKbib7hCSKbv2YhMZRQYhUs5LauZpwC8K1"
-          className="w-full aspect-video rounded-lg mt-20 mb-5"
+          className="w-full aspect-video rounded-lg mt-20 mb-3"
         />
-        <p className="text-purple-400 text-2xl">
-          Can&apos;t watch video above? Get change{" "}
+        <p className="text-purple-400 text-sm">
+          Can&apos;t watch video above? Grab some{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="underline text-indigo-200"
             href="https://faucet.polygon.technology/"
           >
-            here
+            loose change
           </a>
-          .{" "}
+          {" "}
         </p>
-        <p className="text-red-400 text-2xl">
-          ... or mint the NFT{" "}
+        <p className="text-red-400 text-sm">
+          ... or mint the{" "}
           <Link href="/mint">
           <a
             target="_blank"
             el="noopener noreferrer"
             className="underline text-indigo-200"
           >
-            here
+            access NFT
           </a>
           </Link>
           
           .{" "}
         </p>
-        <div className="mt-16 mx-auto sm:flex sm:justify-center md:mt-20">
+        <p className="mt-10 max-w-md mx-auto text-xl text-gray-200 md:mt-8 md:text-2xl">
+          Loop lets you and anyone else embed your videos. Grow and make money together.</p>
+        <div className="mt-5 mx-auto sm:flex sm:justify-center md:mt-5">
           <CtaForm buttonLabel="Join beta" placeholder="Email" />
         </div>
       </Container>
