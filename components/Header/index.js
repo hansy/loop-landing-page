@@ -16,7 +16,7 @@ const Header = () => {
           src="https://app.getloop.xyz/0x2Caefce8cF1D7C3AB072BA13934FA6D08d54ba6F/videos/QmTgihxkQRghKKbib7hCSKbv2YhMZRQYhUs5LauZpwC8K1"
           className="w-full aspect-video rounded-lg mt-20 mb-3"
         />
-        <p className="text-purple-400 text-sm">
+        <p className="text-purple-400 text-md">
           Can&apos;t watch the video above? Grab some{" "}
           <a
             target="_blank"
@@ -27,7 +27,7 @@ const Header = () => {
             faucet change
           </a>{" "}
         </p>
-        <p className="text-red-400 text-sm mt-1">
+        <p className="text-red-400 text-md mt-1">
           ... or mint the{" "}
           <Link href="/mint">
             <a
