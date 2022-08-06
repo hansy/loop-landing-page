@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Container from "../Container";
 import CtaForm from "../Cta/Form";
 
@@ -16,8 +17,10 @@ const Header = () => {
           className="w-full aspect-video rounded-lg mt-20 mb-5"
         />
         <p className="text-purple-400 text-2xl">
-          Fine fine this is a demo ... grab some MATIC{" "}
+          Can't watch video above? Fine ... get tokens{" "}
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             className="underline text-indigo-200"
             href="https://faucet.polygon.technology/"
           >
@@ -27,15 +30,19 @@ const Header = () => {
         </p>
         <p className="text-red-400 text-2xl">
           ... or mint the NFT{" "}
+          <Link href="/mint">
           <a
+            target="_blank"
+            el="noopener noreferrer"
             className="underline text-indigo-200"
-            href="https://faucet.polygon.technology/"
           >
             here
           </a>
+          </Link>
+          
           .{" "}
         </p>
-        <div className="mt-6 mx-auto sm:flex sm:justify-center md:mt-20">
+        <div className="mt-16 mx-auto sm:flex sm:justify-center md:mt-20">
           <CtaForm buttonLabel="Join beta" placeholder="Email" />
         </div>
       </Container>
