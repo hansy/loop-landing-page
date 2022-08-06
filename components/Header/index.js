@@ -17,7 +17,7 @@ const Header = () => {
           className="w-full aspect-video rounded-lg mt-20 mb-5"
         />
         <p className="text-purple-400 text-2xl">
-          Can't watch video above? Fine ... get tokens{" "}
+          Can&apos;t watch video above? Get change{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"
