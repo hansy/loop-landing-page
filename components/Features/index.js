@@ -24,13 +24,13 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="py-12 bg-gray-50 md:py-20">
+    <div className="py-12 bg-gray-50">
       <Container>
         <div className="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-center text-2xl leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl">
-            Upload once, distribute everywhere. It&apos;s your content.
+            It&apos;s your content.
           </h2>
-          <dl className="mt-8 space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
+          <dl className="mt-12 space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
             {features.map((feature) => (
               <div key={feature.name}>
                 <dt>

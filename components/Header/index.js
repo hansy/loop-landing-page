@@ -42,7 +42,7 @@ const Header = () => {
         </p>
         <p className="mt-16 max-w-xl mx-auto text-xl text-gray-200 md:mt-20 md:text-2xl">
           Loop gives creators the tools to manage, monetize, and distribute
-          their content however they want.
+          their content.
         </p>
         <div className="mt-5 mx-auto sm:flex sm:justify-center md:mt-5">
           <CtaForm buttonLabel="Join beta" placeholder="Email" />
