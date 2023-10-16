@@ -5,19 +5,19 @@ const features = [
   {
     name: "Own it",
     description:
-      "Stored on the blockchain, you own your videos. Nobody can censor or take them down.",
+      "We've designed our system so that you'll always have access to your videos (even if Loop were to disappear one day).",
     icon: KeyIcon,
   },
   {
     name: "Monetize it",
     description:
-      "Video on demand, NFT access, subscription - it's your choice how you want your content accessed.",
+      "Video-on-demand, subscription - it's your choice how you want your content accessed.",
     icon: CashIcon,
   },
   {
     name: "Grow it",
     description:
-      "Let others distribute your awesome content and bring new fans in new places to your work.",
+      "Incentivize others to distribute your videos and bring new fans in new places to your work.",
     icon: UserGroupIcon,
   },
 ];
